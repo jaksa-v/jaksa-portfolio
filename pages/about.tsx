@@ -3,11 +3,10 @@ import Image from 'next/image';
 
 import Container from 'components/Container';
 import avatar from 'public/avatar.jpg';
-import avatarBW from 'public/avatar-bw.jpg';
 
 export default function About() {
   return (
-    <Container title="About – Lee Robinson">
+    <Container title="About – Jakša Vlahović">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
@@ -16,76 +15,40 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              Twitter: <a href="https://twitter.com/leeerob">@leeerob</a>
-            </li>
-            <li>
-              GitHub: <a href="https://github.com/leerob">@leerob</a>
-            </li>
-            <li>
-              Website: <Link href="https://leerob.io">https://leerob.io</Link>
+              GitHub: <a href="https://github.com/jaksa-v">@jaksa-v</a>
             </li>
             <li>
               LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/leeerob/">
-                https://www.linkedin.com/in/leeerob
+              <a href="https://www.linkedin.com/in/jak%C5%A1a-vlahovi%C4%87-a51757154/">
+                Jakša Vlahović
               </a>
             </li>
+            <li>
+              Instagram:{' '}
+              <a href="https://www.instagram.com/jaksaa07">@jaksaa07</a>
+            </li>
           </ul>
-          <h2>Bio</h2>
           <h3>Job Title</h3>
-          <p>Lee Robinson, VP of Developer Experience at Vercel</p>
-          <h3>Long, 3rd Person</h3>
+          <p>Jakša Vlahović, Fullstack Developer</p>
+          <h3>Bio</h3>
           <p>
-            Lee Robinson is the VP of Developer Experience at{' '}
+            {/* Jakša Vlahović is the VP of Developer Experience at{' '}
             <a href="http://vercel.com/">Vercel</a>, where he helps developers
             build a faster web and leads the Next.js community. He leads the
             community for the React framework Next.js and is an open-source
             contributor. An educator, writer, and speaker, Lee has created
-            courses on React, Next.js, and web development.
+            courses on React, Next.js, and web development. */}
+            to be written
           </p>
-          <h3>Long, 1st Person</h3>
-          <p>
-            Hey, I'm Lee. I'm the VP of Developer Experience at{' '}
-            <a href="https://vercel.com/">Vercel</a>, where my team helps
-            developers build a faster web. I'm a Next.js contributor and help
-            lead our open-source communities. I'm passionate about frontend
-            development and have created courses on React, Next.js, and web
-            development. I'm an advisor and investor in early stage startups.
-          </p>
-          <h3>Short, 3rd Person</h3>
-          <p>
-            Lee Robinson is the VP of Developer Experience at{' '}
-            <a href="http://vercel.com/">Vercel</a>, where he helps developers
-            build a faster web.
-          </p>
-          <h3>Short, 1st Person</h3>
-          <p>
-            Hey, I'm Lee. I'm the VP of Developer Experience at{' '}
-            <a href="https://vercel.com/">Vercel</a>, where my team helps
-            developers build a faster web.
-          </p>
-          <h3>Education</h3>
-          <p>
-            Lee Robinson graduated from Iowa State University with a B.S. in
-            Computer Engineering.
-          </p>
-          <h2>Headshots</h2>
+
+          <h2>Photos</h2>
           <div className="flex space-x-8">
             <a href="/avatar.jpg">
               <Image
-                alt="Lee Robinson headshot"
+                alt="Jakša Vlahović photo"
                 width={400}
                 quality={100}
                 src={avatar}
-                className="rounded-md"
-              />
-            </a>
-            <a href="/avatar-bw.jpg">
-              <Image
-                alt="Lee Robinson headshot"
-                width={400}
-                quality={100}
-                src={avatarBW}
                 className="rounded-md"
               />
             </a>

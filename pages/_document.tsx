@@ -23,11 +23,6 @@ export default function Document(props) {
           sizes="16x16"
           type="image/png"
         />
-        <link
-          color="#4a9885"
-          href="/static/favicons/safari-pinned-tab.svg"
-          rel="mask-icon"
-        />
         <meta content="#ffffff" name="theme-color" />
         <meta content="#ffffff" name="msapplication-TileColor" />
         <meta

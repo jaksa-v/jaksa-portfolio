@@ -2,10 +2,10 @@ import 'styles/global.css';
 
 import { ThemeProvider } from 'next-themes';
 import { SessionProvider } from 'next-auth/react';
-import { Inter } from '@next/font/google';
+import { Montserrat } from '@next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 
-const interVariable = Inter();
+const montserratVariable = Montserrat({ subsets: ['latin-ext', 'latin'] });
 
 export default function App({
   Component,
@@ -14,7 +14,7 @@ export default function App({
   return (
     <SessionProvider session={session}>
       <ThemeProvider attribute="class">
-        <main className={interVariable.className}>
+        <main className={montserratVariable.className}>
           <Component {...pageProps} />
           <Analytics />
         </main>

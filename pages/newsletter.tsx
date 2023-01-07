@@ -1,10 +1,9 @@
 import Container from 'components/Container';
-import Subscribe from 'components/Subscribe';
 
 export default function Newsletter() {
   return (
     <Container
-      title="Newsletter – Lee Robinson"
+      title="Newsletter – Jakša Vlahović"
       description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -16,7 +15,6 @@ export default function Newsletter() {
           on and writing about. I frequently share some of my favorite articles
           I've read, as well as anything fascinating about technology.
         </p>
-        <Subscribe />
       </div>
     </Container>
   );
