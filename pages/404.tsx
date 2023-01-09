@@ -10,10 +10,12 @@ export default function NotFound() {
           451 – Unavailable For Legal Reasons
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-8">
-          Why show a generic 404 when I can make it sound mysterious? It seems
-          you've found something that used to exist, or you spelled something
-          wrong. I'm guessing you spelled something wrong. Can you double check
-          that URL?
+          It seems that the mysterious forces have hidden this secret knowledge,
+          or maybe you just spelled something wrong.
+        </p>
+        <p className="text-gray-600 dark:text-gray-400 mb-8">
+          I'm guessing you spelled something wrong. Can you double check that
+          URL?
         </p>
         <Link
           href="/"

@@ -38,22 +38,22 @@ export default function Home() {
           </div>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-            Featured Posts
+            Featured Projects
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
-              title="Ja narkoman nisam"
-              slug="style-guides-component-libraries-design-systems"
+              title="Project 1"
+              slug="project-1"
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="Kako napraviti najbolju kaficu"
-              slug="rust"
+              title="Project 2"
+              slug="project-2"
               gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             />
             <BlogPostCard
-              title="Božić je, božić je..."
-              slug="react-state-management"
+              title="Project 3"
+              slug="project-3"
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           >
             <>
-              {'Read all posts'}
+              {'See all projects'}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

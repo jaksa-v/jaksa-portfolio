@@ -27,51 +27,45 @@ export default function Footer() {
             Home
           </Link>
           <Link
+            href="/projects"
+            className="text-gray-500 hover:text-gray-600 transition"
+          >
+            Projects
+          </Link>
+          <Link
             href="/about"
             className="text-gray-500 hover:text-gray-600 transition"
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/newsletter"
             className="text-gray-500 hover:text-gray-600 transition"
           >
             Newsletter
-          </Link>
+          </Link> */}
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://twitter.com/leeerob">
-            Twitter
+          <ExternalLink href="https://github.com/jaksa-v">GitHub</ExternalLink>
+          <ExternalLink href="https://www.linkedin.com/in/jak%C5%A1a-vlahovi%C4%87-a51757154/">
+            LinkedIn
           </ExternalLink>
-          <ExternalLink href="https://github.com/leerob">GitHub</ExternalLink>
-          <ExternalLink href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw">
-            YouTube
+          <ExternalLink href="https://www.instagram.com/jaksaa07">
+            Instagram
           </ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
           <Link
-            href="/uses"
+            href="/blog"
             className="text-gray-500 hover:text-gray-600 transition"
           >
-            Uses
+            Blog
           </Link>
           <Link
             href="/guestbook"
             className="text-gray-500 hover:text-gray-600 transition"
           >
             Guestbook
-          </Link>
-          <Link
-            href="/snippets"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Snippets
-          </Link>
-          <Link
-            href="/tweets"
-            className="text-gray-500 hover:text-gray-600 transition"
-          >
-            Tweets
           </Link>
         </div>
       </div>
