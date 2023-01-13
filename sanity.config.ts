@@ -51,9 +51,9 @@ export default defineConfig({
         ]
       },
       {
-        name: 'snippet',
+        name: 'project',
         type: 'document',
-        title: 'Snippet',
+        title: 'Project',
         fields: [
           {
             name: 'title',
@@ -69,19 +69,19 @@ export default defineConfig({
             }
           },
           {
-            name: 'content',
-            title: 'Content',
+            name: 'description',
+            title: 'Description',
             type: 'markdown'
           },
           {
-            name: 'description',
-            title: 'Description',
-            type: 'string'
+            name: 'coverImage',
+            title: 'Cover Image',
+            type: 'image'
           },
           {
-            name: 'logo',
-            title: 'Logo',
-            type: 'image'
+            name: 'url',
+            title: 'Url',
+            type: 'string'
           }
         ]
       }

@@ -9,10 +9,10 @@ import { mdxToHtml } from 'lib/mdx';
 import { Post } from 'lib/types';
 
 export default function PostPage({ post }: { post: Post }) {
-  const StaticTweet = ({ id }) => {
-    const tweet = post.tweets.find((tweet) => tweet.id === id);
-    return <Tweet {...tweet} />;
-  };
+  // const StaticTweet = ({ id }) => {
+  //   const tweet = post.tweets.find((tweet) => tweet.id === id);
+  //   return <Tweet {...tweet} />;
+  // };
 
   return (
     <BlogLayout post={post}>
@@ -20,8 +20,8 @@ export default function PostPage({ post }: { post: Post }) {
         {...post.content}
         components={
           {
-            ...components,
-            StaticTweet
+            ...components
+            // StaticTweet
           } as any
         }
       />

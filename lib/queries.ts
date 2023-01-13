@@ -32,6 +32,34 @@ export const postBySlugQuery = `
 
 export const postUpdatedQuery = `*[_type == "post" && _id == $id].slug.current`;
 
+const projectFields = `
+  _id,
+  title,
+  description,
+  url,
+  coverImage,
+  "slug": slug.current,
+`;
+
+export const projectQuery = `
+{
+  "project": *[_type == "project" && slug.current == $slug] | order(_updatedAt desc) [0] {
+    ${projectFields}
+  }
+}`;
+
+export const projectSlugsQuery = `
+*[_type == "project" && defined(slug.current)][].slug.current
+`;
+
+export const projectBySlugQuery = `
+*[_type == "project" && slug.current == $slug][0] {
+  ${projectFields}
+}
+`;
+
+export const projectUpdatedQuery = `*[_type == "project" && _id == $id].slug.current`;
+
 const snippetFields = `
   _id,
   title,

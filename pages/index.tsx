@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Container from '../components/Container';
-import BlogPostCard from '../components/BlogPostCard';
+import ProjectCard from 'components/ProjectCard';
 import VideoCard from '../components/VideoCard';
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 Helping people build their ideas and products. I love web
-                development, serverless, and React / Next.js.
+                development, serverless, and React, React Native and Next.js.
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -41,17 +41,17 @@ export default function Home() {
             Featured Projects
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
-            <BlogPostCard
-              title="Project 1"
-              slug="project-1"
+            <ProjectCard
+              title="Twitter Clone"
+              slug="twitter-clone"
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
-            <BlogPostCard
+            <ProjectCard
               title="Project 2"
               slug="project-2"
               gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             />
-            <BlogPostCard
+            <ProjectCard
               title="Project 3"
               slug="project-3"
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"

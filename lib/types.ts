@@ -12,6 +12,15 @@ export type Post = {
   tweets: any[];
 };
 
+export type Project = {
+  _id: string;
+  slug: string;
+  description: MDXRemoteSerializeResult;
+  title: string;
+  url: string;
+  coverImage: string;
+};
+
 export type Snippet = {
   _id: string;
   slug: string;
