@@ -44,17 +44,17 @@ export default function Home() {
             <ProjectCard
               title="Twitter Clone"
               slug="twitter-clone"
-              gradient="from-[#D8B4FE] to-[#818CF8]"
+              gradient="from-[#0093E9] to-[#80D0C7]"
             />
             <ProjectCard
               title="Project 2"
               slug="project-2"
-              gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
+              gradient="from-[#0093E9] to-[#80D0C7]"
             />
             <ProjectCard
               title="Project 3"
               slug="project-3"
-              gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
+              gradient="from-[#0093E9] to-[#80D0C7]"
             />
           </div>
           <Link

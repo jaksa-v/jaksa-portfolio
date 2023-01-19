@@ -1,6 +1,6 @@
 generator client {
-  provider = "prisma-client-js"
-  // previewFeatures = ["referentialIntegrity"]
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
 }
 
 datasource db {
