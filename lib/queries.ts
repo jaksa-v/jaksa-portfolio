@@ -60,6 +60,11 @@ export const projectBySlugQuery = `
 
 export const projectUpdatedQuery = `*[_type == "project" && _id == $id].slug.current`;
 
+export const allProjectsQuery = `
+*[_type == "project"] | order(date desc, _updatedAt desc) {
+  ${projectFields}
+}`;
+
 const snippetFields = `
   _id,
   title,

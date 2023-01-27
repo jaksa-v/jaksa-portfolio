@@ -42,18 +42,18 @@ export default function Home() {
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <ProjectCard
+              title="DALL-E Clone"
+              slug="dalle-clone"
+              gradient="from-[#0093E9] to-[#80D0C7]"
+            />
+            <ProjectCard
               title="Twitter Clone"
               slug="twitter-clone"
               gradient="from-[#0093E9] to-[#80D0C7]"
             />
             <ProjectCard
-              title="Project 2"
-              slug="project-2"
-              gradient="from-[#0093E9] to-[#80D0C7]"
-            />
-            <ProjectCard
-              title="Project 3"
-              slug="project-3"
+              title="Expense Tracker App"
+              slug="expense-tracker-app"
               gradient="from-[#0093E9] to-[#80D0C7]"
             />
           </div>

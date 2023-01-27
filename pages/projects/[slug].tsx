@@ -22,7 +22,9 @@ export default function ProjectPage({ project }: { project: Project }) {
           } as any
         }
       />
-      <Link href={project.url}>Check it out!</Link>
+      <Link href={project.url} target="_blank">
+        Check it out!
+      </Link>
       {/* SHOULD ADD IMAGE HERE */}
     </ProjectLayout>
   );

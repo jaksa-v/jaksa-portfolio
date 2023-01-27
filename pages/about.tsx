@@ -16,17 +16,44 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              GitHub: <a href="https://github.com/jaksa-v">@jaksa-v</a>
+              GitHub:{' '}
+              <a
+                href="https://github.com/jaksa-v"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @jaksa-v
+              </a>
             </li>
             <li>
               LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/jak%C5%A1a-vlahovi%C4%87-a51757154/">
+              <a
+                href="https://www.linkedin.com/in/jak%C5%A1a-vlahovi%C4%87-a51757154/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Jakša Vlahović
+              </a>
+            </li>
+            <li>
+              CV:{' '}
+              <a
+                href="https://drive.google.com/file/d/1eg6y-fl93VJYJWW3SPH5DsRTgiamUB9Y/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Jakša Vlahović
               </a>
             </li>
             <li>
               Instagram:{' '}
-              <a href="https://www.instagram.com/jaksaa07">@jaksaa07</a>
+              <a
+                href="https://www.instagram.com/jaksaa07"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @jaksaa07
+              </a>
             </li>
           </ul>
           <h3>Job Title</h3>
