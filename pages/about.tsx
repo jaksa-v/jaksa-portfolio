@@ -38,7 +38,7 @@ export default function About() {
             <li>
               CV:{' '}
               <a
-                href="https://drive.google.com/file/d/1eg6y-fl93VJYJWW3SPH5DsRTgiamUB9Y/view?usp=sharing"
+                href="https://drive.google.com/file/d/1b8CIT9oVSNwk-fl6YDwVCEQwwlvfPNhE/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -25,7 +25,15 @@ export default function ProjectPage({ project }: { project: Project }) {
       <Link href={project.url} target="_blank">
         Check it out!
       </Link>
-      {/* SHOULD ADD IMAGE HERE */}
+      <div className="mt-4 relative w-full h-96">
+        <Image
+          src={urlForImage(project.coverImage).url()}
+          alt={project.slug}
+          fill
+          className="object-contain"
+          priority
+        />
+      </div>
     </ProjectLayout>
   );
 }
