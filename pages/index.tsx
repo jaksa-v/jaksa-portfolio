@@ -58,7 +58,7 @@ export default function Home() {
             />
           </div>
           <Link
-            href="/blog"
+            href="/projects"
             className="flex items-center mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
           >
             <>
