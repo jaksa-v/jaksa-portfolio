@@ -38,8 +38,8 @@ export default function Container(props) {
   const router = useRouter();
   const meta = {
     title: 'Jakša Vlahović – Fullstack Developer',
-    description: `Front-end developer, JavaScript enthusiast, and course creator.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    description: `Fullstack Web & Mobile Developer.`,
+    image: 'https://leerob.io/static/avatar.jpg',
     type: 'website',
     ...customMeta
   };
