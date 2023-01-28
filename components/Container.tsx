@@ -39,7 +39,7 @@ export default function Container(props) {
   const meta = {
     title: 'Jakša Vlahović – Fullstack Developer',
     description: `Fullstack Web & Mobile Developer.`,
-    image: 'https://leerob.io/static/avatar.jpg',
+    // image: 'https://leerob.io/static/avatar.jpg',
     type: 'website',
     ...customMeta
   };
